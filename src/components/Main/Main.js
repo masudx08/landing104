@@ -9,36 +9,44 @@ import Nft5 from '../../images/nft5.png'
 import Nft6 from '../../images/nft6.png'
 export default function Main() {
   return (
-    <div>
+    <div className='mainContainer'>
       <Container>
       <Row>
-        <Col md={4}>
-          <h1>LIL ROCKSTAR</h1>
-          <h2>IT’S TIME TO ROCK, STAKE, AND ROLL.</h2>
-          <p>
-            Get ready to take over the metaverse and the nft space with your own unique lil’rockstar! Lil’Rockstar is your Stairway to one of the largest and fastest growing NFT Project.
-          </p>
-          <Button>Mint Soon</Button>
+        <Col md={5} className='d-flex align-items-center main-left'>
+          <div>
+            <h1>LIL <br/> ROCKSTAR</h1>
+            <h2>IT’S TIME TO ROCK, STAKE, AND ROLL.</h2>
+            <p>
+              Get ready to take over the metaverse and the nft space with your own unique lil’rockstar! Lil’Rockstar is your Stairway to one of the largest and fastest growing NFT Project.
+            </p>
+            <button>MINT SOON</button>
+          </div>
         </Col>
-        <Col md={8}>
-          <Row>
+        <Col md={7}>
+          <Row >
             <Col md={4}>
-              <Image className='mainNftImg' src={Nft1}></Image>
+              
+              <Image className='mainNftImg main1' src={Nft1}></Image>
             </Col>
             <Col  md={4}>
-              <Image className='mainNftImg' src={Nft2}></Image>
+              
+              <Image className='mainNftImg main2' src={Nft2}></Image>
             </Col>
             <Col  md={4}>
-              <Image className='mainNftImg' src={Nft3}></Image>
+              
+              <Image className='mainNftImg main3' src={Nft3}></Image>
             </Col>
             <Col  md={4}>
-              <Image className='mainNftImg' src={Nft4}></Image>
+              
+              <Image className='mainNftImg main4' src={Nft4}></Image>
             </Col>
             <Col  md={4}>
-              <Image className='mainNftImg' src={Nft5}></Image>
+              
+              <Image className='mainNftImg main5' src={Nft5}></Image>
             </Col>
             <Col  md={4}>
-              <Image className='mainNftImg' src={Nft6}></Image>
+              
+              <Image className='mainNftImg main6' src={Nft6}></Image>
             </Col>
               
           </Row>

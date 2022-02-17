@@ -1,3 +1,75 @@
+.mainContainer{
+  background-image: url(../../images/main-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 50px 0;
+  margin-top: 70px;
+}
+
+.main-left h1{
+  font-size: 4rem;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  color: #f9f9fa
+}
+.main-left h2{
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.main-left p{
+  color: #caced3;
+  margin: 17px 0;
+}
+
+.main-left button{
+  border: none;
+  outline: none;
+  background-color: #2b0950;
+  color: white;
+  border: 4px solid #A563EF;
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+.main-left button:hover{
+  transform: scale(0.9);
+  transition: transform 0.5s;
+}
 .mainNftImg{
   width: 200px
+}
+
+.main1{
+  background-color: #156C4287;
+  border-radius: 0 0 50% 50%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.main2{
+  background-color: #FFFC797A;
+  border-radius: 0 0 50% 50%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.main3{
+  background-color: #4795C280;
+  border-radius: 0 0 50% 50%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.main4{
+  background-color: #EC67A070;
+  padding: 20px;
+  border-radius: 50%;
+}
+.main5{
+  background-color: #804F38AB;
+  padding: 20px;
+  border-radius: 50%;
+}
+.main6{
+  background-color: #5F47C280;
+  padding: 20px;
+  border-radius: 50%;
 }

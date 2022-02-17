@@ -1,10 +1,45 @@
 
+.headerContainer{
+  background-color: rgb(10, 1, 19);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white
+}
+.logo{
+  width: 90px;
+  height: 90px;
+  position: relative;
+  top: 25px;
+}
+
+.headerContainer .header-btn{
+  border: none;
+  outline: none;
+  background: linear-gradient(180deg, #b13fff 0%, #292bf2 100%);
+  border-radius: 25px 25px 25px 25px;
+  color: white;
+  padding: 8px 30px;
+}
+.headerContainer button{
+  background-color: rgb(241, 237, 237);
+}
+.headerContainer .header-btn:hover{
+  background: #292bf2;
+  transition: 0.2;
+}
+
+
 @media only screen and (min-width:992px){
   .headerNav{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%
+    width: 100%;
+    column-gap: 20px;
   }
   .firstBrand{
     display: none;
@@ -28,9 +63,3 @@
 }
 
 
-
-.logo{
-  width: 90px;
-  height: 90px;
-  
-}

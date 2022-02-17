@@ -4,7 +4,7 @@ import './benefit.css'
 
 export default function Benefit() {
   return (
-    <div>
+    <div className='benefitContainer'>
       <Row>
         <Col>
           <div>
