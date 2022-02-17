@@ -10,7 +10,6 @@ import Collection from './components/Collection/Collection';
 import Team from './components/Team/Team';
 import Faq from './components/Faq/Faq';
 import Social from './components/Social/Social';
-import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div>
@@ -23,7 +22,6 @@ function App() {
       <Team />
       <Faq />
       <Social />
-      <Footer />
     </div>
   );
 }
