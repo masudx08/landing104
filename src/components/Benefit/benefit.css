@@ -1,5 +1,42 @@
 .benefitContainer{
-  background-color: #1B2339;
+  /* background-color: #1B2339; */
+  background-image: url(../../images/benefit-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   z-index: 100;
+  padding: 80px;
+}
+.benefitTitle{
+  margin-bottom: 100px;
+}
+.benefitContainer h3{
+  color: #7937d4;
+}
+.benefitMiddle{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.benefit1, .benefit2{
+  width: 150px;
+  border-radius: 100%;
+  border: 10px solid rgb(30, 25, 90);
+}
+.benefit1{
+  position: relative;
+  top: -170px;
+  left: 420px;
+}
+.benefit2{
+  position:relative;
+  top: 170px;
+  left: -420px;
+}
+.benefit-img{
+  width: 400px;
+  border-radius: 100%;
+  border: 30px solid rgb(30, 25, 90);
+
 }
