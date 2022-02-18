@@ -19,10 +19,10 @@
   transition: transform 0.5s;
 }
 .logo{
-  width: 90px;
+  width: 100px;
   height: auto;
   position: relative;
-  top: 3px;
+  top:41px;
 }
 
 .headerContainer .header-btn{

@@ -15,8 +15,8 @@ export default function Benefit() {
       <div className='text-center benefitTitle'>
         <h1 className='section-title'>BENEFITS & UTILITIES</h1>
       </div>
-      <Row>
-        <Col md={4}>
+      <Row className='d-flex justify-content-center m-0'>
+        <Col xs={10} lg={3} >
           <div className='benefit-col'>
             <div>
               <img src={Value} alt="" />
@@ -40,20 +40,14 @@ export default function Benefit() {
             </div>
           </div>
         </Col>
-        <Col md={4}>
+        <Col xs={10} lg={5}>
           <div className='benefitMiddle'>
-            <div>
-              <img className='benefit1' src={Benefit1}></img>
-            </div>
-            <div>
             <img className='benefit-img' src={BenefitImg}></img>
-            </div>
-            <div>
+              <img className='benefit1' src={Benefit1}></img>
             <img className='benefit2' src={Benefit2}></img>
-            </div>
           </div>
         </Col>
-        <Col md={4}>
+        <Col xs={10} lg={3} className='bene-right'>
           <div className='benefit-col2 r-ben'>
               
               <div>

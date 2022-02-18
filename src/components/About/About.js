@@ -13,7 +13,7 @@ export default function About() {
   
   return (
     <div className='aboutContainer'>
-        <Row>
+        <Row className='m-0'>
           <Col className='all-carousel'>
             <div className='custom-carousel'>
                   <div>

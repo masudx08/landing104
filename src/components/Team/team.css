@@ -10,10 +10,14 @@
   color:#e3a35c
 }
 .teamCardContainer{
+  
+  width: 98%;
+  margin: auto;
+  display: flex;
   justify-content: center;
 }
 .teamCardContainer img{
-  width: 270px;
+  width: 100%;
   background-color: #241f42;
   border-radius: 30px;
   padding: 30px;
@@ -31,6 +35,8 @@
   border-radius: 30px;
 }
 
-/* @media only screen and (max-width:700px){
-  
-} */
+@media only screen and (max-width:700px){
+  .teamCardContainer{
+    width: 80%
+  }
+}

@@ -27,7 +27,7 @@ export default function Social() {
           </div>
         
       
-      <Row className='footer'>
+      <Row className='footer m-0'>
         <Col >
           <p>Copyright Lil Rockstar 2022. All Rights Reserved</p>
         </Col>

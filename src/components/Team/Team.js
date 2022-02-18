@@ -9,26 +9,26 @@ import Nft5 from '../../images/nft5.png'
 import Nft6 from '../../images/nft6.png'
 export default function Team() {
   return (
-    <div className='teamContainer'>
+    <div className='teamContainer' id='team'>
       <h1 className='section-title'>MEET OUR TEAM</h1>
-      <Row className='teamCardContainer'>
+      <Row className='teamCardContainer pt-5'>
         <Col md={3}>
           <div>
-            <img src={Nft1}></img>
+            <img alt='' src={Nft1}></img>
             <h5 className='name'>Stevens</h5>
             <h5 className='title'>Co-Founder</h5>
           </div>
         </Col>
         <Col md={3}>
           <div>
-            <img src={Nft2}></img>
+            <img alt='' src={Nft2}></img>
             <h5 className='name'>St Pierre</h5>
             <h5 className='title'>CEO</h5>
           </div>
         </Col>
         <Col md={3}>
           <div>
-            <img src={Nft3}></img>
+            <img alt='' src={Nft3}></img>
             <h5 className='name'>Ptit RocheEtoile</h5>
             <h5 className='title'>Community Manager</h5>
           </div>
@@ -37,21 +37,21 @@ export default function Team() {
       <Row className='teamCardContainer'> 
         <Col md={3}>
           <div>
-            <img src={Nft4}></img>
+            <img alt='' src={Nft4}></img>
             <h5 className='name'>Benz</h5>
             <h5 className='title'>Artist</h5>
           </div>
         </Col>
         <Col md={3}>
           <div>
-            <img src={Nft5}></img>
+            <img alt='' src={Nft5}></img>
             <h5 className='name'>Francois Cania</h5>
             <h5 className='title'>Marketing Agent</h5>
           </div>
         </Col>
         <Col md={3}>
           <div>
-            <img src={Nft6}></img>
+            <img alt='' src={Nft6}></img>
             <h5 className='name'>David</h5>
             <h5 className='title'>Lead Dev</h5>
           </div>

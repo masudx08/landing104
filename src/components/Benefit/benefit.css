@@ -5,7 +5,7 @@
   background-size: cover;
   color: white;
   z-index: 100;
-  padding: 80px;
+  padding: 2%;
 }
 .benefitTitle{
   margin-bottom: 100px;
@@ -13,32 +13,41 @@
 .benefitContainer h3{
   color: #7937d4;
 }
-.benefitMiddle{
+/* .benefitMiddle{
   display: flex;
   align-items: center; 
   justify-content: center; 
-}
+} */
 
 .benefit1, .benefit2{
   width: 150px;
   border-radius: 100%;
   border: 10px solid rgb(30, 25, 90);
 }
+
 .benefit1{
   position: relative;
-  top: -170px;
-  left: 420px;
+    top: -73px;
+    left: -99px;
+    animation-name: benefitAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    animation-delay: 0.5s;
 }
 .benefit2{
-  position:relative;
-  top: 170px;
-  left: -420px;
+  position: relative;
+    top: -595px;
+    left: 129px;
+    animation-name: benefitAnimation;
+    animation-duration: 1s;
+    animation-iteration-count: 10;
+    animation-delay: 1s;
+
 }
 .benefit-img{
   max-width: 400px;
   border-radius: 100%;
   border: 30px solid rgb(30, 25, 90);
-  margin: 100px 0;
 }
 
 .benefit-col, .benefit-col2{
@@ -59,9 +68,50 @@
   text-align: right;
 }
 
+.benefitMiddle{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
 
+
+
+
+@keyframes benefitAnimation{
+  from {
+    transform: scale(1);
+  }
+  20%{
+    transform: scale(1.1);
+  }
+  40%{
+    transform: scale(0.9);
+  }
+  60%{
+    transform: scale(1.1);
+  }
+  80%{
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+} 
+
+
+
+@media only screen and (min-width:701px) and (max-width: 992px){
+  .bene-right{
+    margin-top: -120px;
+  }
+}
 @media only screen and (max-width:700px){
-
+  .benefitMiddle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
   .benefit1, .benefit2{
     width: 100px;
     border-radius: 100%;
@@ -69,21 +119,19 @@
   }
   .benefit1{
     position: relative;
-    top: -170px;
-    left: 280px;
+    top: -321px;
+    left: 92px;
   }
   .benefit2{
-    position:relative;
-    top: 170px;
-    left: -280px;
+    position: relative;
+    top: -168px;
+    left: -79px;
   }
   .benefit-img{
     width: 300px;
     border-radius: 100%;
     border: 20px solid rgb(30, 25, 90);
-    margin: 100px 0;
   }
   .benefitContainer{
-    padding: 15px
   }
 }
