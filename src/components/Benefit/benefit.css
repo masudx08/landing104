@@ -8,7 +8,6 @@
   padding: 80px;
 }
 .benefitTitle{
-  margin-bottom: 100px;
 }
 .benefitContainer h3{
   color: #7937d4;
@@ -38,5 +37,5 @@
   width: 400px;
   border-radius: 100%;
   border: 30px solid rgb(30, 25, 90);
-
+  margin: 100px 0;
 }

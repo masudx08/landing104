@@ -1,0 +1,17 @@
+
+
+
+.faqContainer{
+  background-color: rgb(17, 7, 61);
+  color: white;
+}
+
+
+.faq-left{
+  background-image: url(../../images/faq-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-width: 250px;
+  padding: 20px
+}

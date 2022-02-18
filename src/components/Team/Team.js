@@ -9,50 +9,51 @@ import Nft5 from '../../images/nft5.png'
 import Nft6 from '../../images/nft6.png'
 export default function Team() {
   return (
-    <div>
-      <h1>MEET OUR TEAM</h1>
-      <Row>
-        <Col md={4}>
+    <div className='teamContainer'>
+      <h1 className='mb-5'>MEET OUR TEAM</h1>
+      <Row className='teamCardContainer'>
+        <Col md={3}>
           <div>
-            <Image style={{width:'300px'}} src={Nft1}></Image>
-            <h3>Stevens</h3>
-            <h3>Co-Founder
-</h3>
+            <img src={Nft1}></img>
+            <h5 className='name'>Stevens</h5>
+            <h5 className='title'>Co-Founder</h5>
           </div>
         </Col>
-        <Col md={4}>
+        <Col md={3}>
           <div>
-            <Image style={{width:'300px'}} src={Nft2}></Image>
-            <h3>St Pierre</h3>
-            <h3>CEO</h3>
+            <img src={Nft2}></img>
+            <h5 className='name'>St Pierre</h5>
+            <h5 className='title'>CEO</h5>
           </div>
         </Col>
-        <Col md={4}>
+        <Col md={3}>
           <div>
-            <Image style={{width:'300px'}} src={Nft3}></Image>
-            <h3>Ptit RocheEtoile</h3>
-            <h3>Community Manager</h3>
+            <img src={Nft3}></img>
+            <h5 className='name'>Ptit RocheEtoile</h5>
+            <h5 className='title'>Community Manager</h5>
           </div>
         </Col>
-        <Col md={4}>
+      </Row>
+      <Row className='teamCardContainer'> 
+        <Col md={3}>
           <div>
-            <Image style={{width:'300px'}} src={Nft4}></Image>
-            <h3>Benz</h3>
-            <h3>Artist</h3>
+            <img src={Nft4}></img>
+            <h5 className='name'>Benz</h5>
+            <h5 className='title'>Artist</h5>
           </div>
         </Col>
-        <Col md={4}>
+        <Col md={3}>
           <div>
-            <Image style={{width:'300px'}} src={Nft5}></Image>
-            <h3>Francois Cania</h3>
-            <h3>Marketing Agent</h3>
+            <img src={Nft5}></img>
+            <h5 className='name'>Francois Cania</h5>
+            <h5 className='title'>Marketing Agent</h5>
           </div>
         </Col>
-        <Col md={4}>
+        <Col md={3}>
           <div>
-            <Image style={{width:'300px'}} src={Nft6}></Image>
-            <h3>David</h3>
-            <h3>Lead Dev</h3>
+            <img src={Nft6}></img>
+            <h5 className='name'>David</h5>
+            <h5 className='title'>Lead Dev</h5>
           </div>
         </Col>
       </Row>

@@ -3,10 +3,12 @@ import { Accordion, Col, Row } from 'react-bootstrap'
 import './faq.css'
 export default function Faq() {
   return (
-    <div>
+    <div className='faqContainer'>
       <Row>
-        <Col>
+        <Col className='d-flex align-items-center justify-content-center'>
+          <div className='faq-left'>
           <h1>FAQ</h1>
+          </div>
         </Col>
         <Col>
           <Accordion defaultActiveKey="0">

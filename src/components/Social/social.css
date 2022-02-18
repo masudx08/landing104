@@ -1,0 +1,32 @@
+
+.socialContainer{
+  text-align: center;
+  background-color: rgb(12, 6, 66);
+  color: white;
+  padding-top: 100px;
+}
+
+.socialImgContainer{
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.socialImgContainer svg{
+  font-size: 200px;
+  background-color: blue;
+  padding: 50px;
+  border-radius: 20px;
+}
+.socialImgContainer div{
+  background-color: red;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+.footer{
+  background-color: red;
+  margin-top: 100px;
+  padding: 20px 0;
+}

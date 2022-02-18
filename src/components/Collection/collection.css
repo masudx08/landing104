@@ -1,0 +1,89 @@
+.collectionContainer{
+  color: white;
+  text-align: center;
+  background: #060e24;
+  
+}
+.collectionContainer .innerContainer{
+  padding-top: 100px;
+  transform: rotate(-3deg);
+}
+.collection-carousels{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  margin-top: 50px;
+  
+  
+}
+.collection-caro{
+  border-top: 1px solid lightgray;
+  padding-top: 50px;
+}
+.collection-caro2 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 50px;
+}
+.collection-caro,.collection-caro2 {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  
+}
+
+.collection-caro img, .collection-caro2 img{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(63, 33, 146);
+  border-radius: 20px;
+  margin: 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  animation-name: collectionCaroAnimation;
+  animation-duration: 15s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+.collection-caro2 img{
+  animation-direction: reverse;
+}
+
+
+@keyframes collectionCaroAnimation {
+  from{
+    transform: translateX(0);
+  }
+  20%{
+    transform: translateX(-200px);
+  }
+  40%{
+    transform: translateX(-400px);
+  }
+  60%{
+    transform: translateX(-600px);
+  }
+  80%{
+    transform: translateX(-800px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+.collectionContainer button{
+  border: none;
+  outline: none;
+  background: linear-gradient(180deg, #b13fff 0%, #292bf2 100%);
+  border-radius: 25px 25px 25px 25px;
+  color: white;
+  padding: 8px 30px;
+}
+.collectionContainer button:hover{
+  background: #292bf2;
+  transition: 0.2;
+}

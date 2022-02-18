@@ -24,12 +24,12 @@
   color: white;
   padding: 8px 30px;
 }
-.headerContainer button{
-  background-color: rgb(241, 237, 237);
-}
 .headerContainer .header-btn:hover{
   background: #292bf2;
   transition: 0.2;
+}
+.headerContainer button{
+  background-color: rgb(241, 237, 237);
 }
 
 
