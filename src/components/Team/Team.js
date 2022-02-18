@@ -10,7 +10,7 @@ import Nft6 from '../../images/nft6.png'
 export default function Team() {
   return (
     <div className='teamContainer'>
-      <h1 className='mb-5'>MEET OUR TEAM</h1>
+      <h1 className='section-title'>MEET OUR TEAM</h1>
       <Row className='teamCardContainer'>
         <Col md={3}>
           <div>

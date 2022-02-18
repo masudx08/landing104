@@ -1,19 +1,28 @@
 
 .headerContainer{
-  background-color: rgb(10, 1, 19);
+  background-color: #110F1E;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: white
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  transform: scale(1.2);
+  color: rgb(63, 63, 223);
+  transition: transform 0.5s;
 }
 .logo{
   width: 90px;
-  height: 90px;
+  height: auto;
   position: relative;
-  top: 25px;
+  top: 3px;
 }
 
 .headerContainer .header-btn{
@@ -28,9 +37,6 @@
   background: #292bf2;
   transition: 0.2;
 }
-.headerContainer button{
-  background-color: rgb(241, 237, 237);
-}
 
 
 @media only screen and (min-width:992px){
@@ -39,26 +45,48 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    column-gap: 20px;
+    column-gap: 4vw;
   }
   .firstBrand{
     display: none;
   }
 }
 @media only screen and (max-width:991px){
+  .headerContainer{
+    padding: 20px 0;
+  }
   .midBrand{
     display: none;
   }
   .firstBrand{
     display: block;
-    position: relative;
-    left: calc(-60vw);
+    position: absolute;
+    top: -35px;
+    left: 20px;
+  }
+  .headerNav{
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .header-btn{
+    display:none
   }
   .navbar-toggler{
     position: relative;
     top: 0;
     width: 60px;
     left: calc(100% - 70px);
+  }
+  .navbar-light .navbar-nav .nav-link{
+    text-transform:capitalize
+  }
+  .navbar-light .navbar-nav .nav-link:hover{
+    transform: scale(1);
+    
+  }
+  .navbar-light .navbar-toggler-icon{
+    background-image: url(../../images/menu.png);
+    border-radius: 4px;
   }
 }
 

@@ -1,27 +1,27 @@
 .teamContainer{
-  background-color: #060e24;
+  background-color: #110F1E;
   color: white;
   text-align: center;
   padding: 100px 0;
 }
 
-.teamContainer .name{}
 .teamContainer .title{
-  color:rgb(221, 162, 53)
+  color:#e3a35c
 }
 .teamCardContainer{
   justify-content: center;
 }
 .teamCardContainer img{
   width: 270px;
-  background-color: rgb(18, 18, 54);
+  background-color: #241f42;
   border-radius: 30px;
   padding: 30px;
   margin: 20px 0;
 
 }
+/* #3f367b;#342d60; */
 .teamCardContainer div{
-  background-color: #0c2057;
+  background-color: #231c4f;
   margin: 10px;
   display: flex;
   flex-direction: column;

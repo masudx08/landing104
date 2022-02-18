@@ -7,7 +7,7 @@ export default function Faq() {
       <Row>
         <Col className='d-flex align-items-center justify-content-center'>
           <div className='faq-left'>
-          <h1>FAQ</h1>
+          <h1 className='section-title'>FAQ</h1>
           </div>
         </Col>
         <Col>

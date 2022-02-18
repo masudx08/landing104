@@ -11,7 +11,7 @@ export default function Collection() {
   return (
     <div className='collectionContainer'>
       <div className="innerContainer">
-      <h1>OUR SPECIAL LEGENDARY COLLECTION</h1>
+      <h1 className='section-title' style={{fontSize:'48px', marginBottom:'30px'}}>OUR SPECIAL LEGENDARY COLLECTION</h1>
       <Row>
       <Col className='collection-carousels'>
             <div className='collection-caro'>

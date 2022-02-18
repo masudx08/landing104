@@ -1,32 +1,39 @@
 
 .socialContainer{
   text-align: center;
-  background-color: rgb(12, 6, 66);
+  background-image: url(../../images/footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   padding-top: 100px;
+  
 }
 
 .socialImgContainer{
   display: flex;
   justify-content: center;
-  height: 350px;
+  flex-direction: row;
+  
 }
 
 .socialImgContainer svg{
-  font-size: 200px;
-  background-color: blue;
-  padding: 50px;
+  font-size: 120px;
+  background-color: #3f367b;
+  padding: 30px;
   border-radius: 20px;
+  margin-bottom: 15px;
 }
 .socialImgContainer div{
-  background-color: red;
+  background-color: #342d60;
   margin: 20px;
   border-radius: 20px;
-  padding: 10px 0;
+  padding: 30px 30px 0 30px;
+
 }
 
 .footer{
-  background-color: red;
   margin-top: 100px;
   padding: 20px 0;
+  border-top: 1px solid lightgray;
+  color: rgb(230, 230, 230)
 }

@@ -26,7 +26,7 @@ export default function Roadmap() {
   }
   return (
     <div className='roadmapContainer'>
-      <h1>Career</h1>
+      <h1 className='section-title'>Career</h1>
         <div className='carouselHeader'></div>
       <Carousel responsive={responsive} className='carouselContainer'>
       <div>

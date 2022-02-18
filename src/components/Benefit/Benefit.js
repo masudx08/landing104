@@ -9,7 +9,7 @@ export default function Benefit() {
   return (
     <div className='benefitContainer'>
       <div className='text-center benefitTitle'>
-        <h1 >BENEFITS & UTILITIES</h1>
+        <h1 className='section-title'>BENEFITS & UTILITIES</h1>
       </div>
       <Row>
         <Col md={3}>
