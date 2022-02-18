@@ -10,9 +10,7 @@ import Nft6 from '../../images/nft6.png'
 export default function Main() {
   return (
     <div className='mainContainer'>
-      <Container>
-      <Row>
-        <Col md={5} className='d-flex align-items-center main-left'>
+      <div className='main-left'>
           <div>
             <h1>LIL <br/> ROCKSTAR</h1>
             <h2>IT’S TIME TO ROCK, STAKE, AND ROLL.</h2>
@@ -21,38 +19,36 @@ export default function Main() {
             </p>
             <button>MINT SOON</button>
           </div>
-        </Col>
-        <Col md={7}>
+        </div>
+        <div className='main-right'>
           <Row >
-            <Col md={4}>
-              
-              <Image className='mainNftImg main1' src={Nft1}></Image>
+            <Col xs={4}>
+              <img className='mainNftImg main1' src={Nft1}></img>
             </Col>
-            <Col  md={4}>
+            <Col xs={4}>
               
-              <Image className='mainNftImg main2' src={Nft2}></Image>
+              <img className='mainNftImg main2' src={Nft2}></img>
             </Col>
-            <Col  md={4}>
+            <Col xs={4}>
               
-              <Image className='mainNftImg main3' src={Nft3}></Image>
+              <img className='mainNftImg main3' src={Nft3}></img>
             </Col>
-            <Col  md={4}>
+            <Col xs={4}>
               
-              <Image className='mainNftImg main4' src={Nft4}></Image>
+              <img className='mainNftImg main4' src={Nft4}></img>
             </Col>
-            <Col  md={4}>
+            <Col xs={4}>
               
-              <Image className='mainNftImg main5' src={Nft5}></Image>
+              <img className='mainNftImg main5' src={Nft5}></img>
             </Col>
-            <Col  md={4}>
+            <Col xs={4}>
               
-              <Image className='mainNftImg main6' src={Nft6}></Image>
+              <img className='mainNftImg main6' src={Nft6}></img>
             </Col>
               
           </Row>
-        </Col>
-      </Row>
-      </Container>
+        </div>
+        
     </div>
   )
 }

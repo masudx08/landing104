@@ -4,9 +4,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(243, 239, 239);
+  
 }
+
 .roadmapContainer h2{
-  color: #7937d4;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+.roadmapContainer p{
+  font-size: 14px
 }
 .carouselHeader{
   width: 100%;
@@ -15,13 +23,13 @@
   border-top: 10px solid white;
 }
 .carouselContainer div{
-  background-color: #5F47C280;
-  margin: 10px;
-  padding: 10px;
+  background-color: #423483;
+  margin: 0 10%;
+  padding: 20px;
   border-radius: 10px;
   border-top: 5px solid white;
   margin-top: 25px;
-  min-height: 320px;
+  min-height: 340px;
 }
 
 .carouselContainer div::before{

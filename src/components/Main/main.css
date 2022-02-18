@@ -3,8 +3,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding: 50px 0;
-  margin-top: 70px;
+  padding: 0 50px;
+  margin-top: 100px;
+  display: flex;
+}
+
+.main-left{
+  padding: 100px 50px;
 }
 
 .main-left h1{
@@ -37,7 +42,8 @@
   transition: transform 0.5s;
 }
 .mainNftImg{
-  width: 200px
+  max-width: 200px;
+  width: 100%;
 }
 
 .main1{
@@ -72,4 +78,34 @@
   background-color: #5F47C280;
   padding: 20px;
   border-radius: 50%;
+}
+
+@media only screen and (max-width:700px){
+  .main-left h1{
+    font-size: 4rem;
+  }
+  .main-left h2{
+    font-size: 2rem;
+  }
+  .main-left p{
+    font-size: 1rem
+  }
+  
+  .mainContainer{
+    flex-direction: column-reverse;
+  }
+  .main-left{
+    padding: 100px 20px;
+  }
+}
+@media only screen and (max-width:530px){
+  .main-left h1{
+    font-size: 3rem;
+  }
+  .main-left h2{
+    font-size: 1.6rem;
+  }
+  .main-left{
+    padding: 100px 5px;
+  }
 }

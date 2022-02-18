@@ -9,7 +9,7 @@ export default function Roadmap() {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 3
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -17,7 +17,7 @@ export default function Roadmap() {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 1
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -26,7 +26,7 @@ export default function Roadmap() {
   }
   return (
     <div className='roadmapContainer'>
-      <h1 className='section-title'>Career</h1>
+      <h1 className='section-title' >Career</h1>
         <div className='carouselHeader'></div>
       <Carousel responsive={responsive} className='carouselContainer'>
       <div>

@@ -2,6 +2,8 @@
   color: white;
   text-align: center;
   background: #110F1E;
+  width: 100%;
+  overflow: hidden;
   
 }
 .collectionContainer .innerContainer{
@@ -14,8 +16,7 @@
   justify-content: center;
   height: 600px;
   margin-top: 50px;
-  
-  
+
 }
 .collection-caro{
   border-top: 1px solid lightgray;
@@ -38,7 +39,7 @@
 .collection-caro img, .collection-caro2 img{
   width: 200px;
   height: 200px;
-  background-color: rgb(63, 33, 146);
+  background-color: #251c44;
   border-radius: 20px;
   margin: 0 10px;
   padding: 10px;
@@ -81,9 +82,26 @@
   background: linear-gradient(180deg, #b13fff 0%, #292bf2 100%);
   border-radius: 25px 25px 25px 25px;
   color: white;
-  padding: 8px 30px;
+  padding: 17px 70px;
 }
 .collectionContainer button:hover{
   background: #292bf2;
   transition: 0.2;
+}
+.accordion-button{
+  letter-spacing: 1px;
+}
+.accordion-button:not(.collapsed){
+  background-color: #110F1E;
+  color: white;
+  
+}
+
+@media only screen and (max-width:700px){
+  .collectionContainer .section-title{
+    font-size: 35px;
+    line-height: 45px;
+    word-spacing: px;
+  }
+  
 }
